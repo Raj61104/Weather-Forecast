@@ -36,3 +36,28 @@
   background: #0ea5e9;
   transform: scale(1.05);
 }
+
+.search-container {
+  position: relative;
+}
+
+.suggestions {
+  position: absolute;
+  width: 100%;
+  background: #1e293b;
+  border-radius: 10px;
+  margin-top: 6px;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.suggestion-item {
+  padding: 12px;
+  cursor: pointer;
+  color: white;
+  border-bottom: 1px solid #334155;
+}
+
+.suggestion-item:hover {
+  background: #334155;
+}
